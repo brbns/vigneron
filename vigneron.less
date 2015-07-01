@@ -1,0 +1,26 @@
+.vg-status-box-element {
+    .animated;
+    .flipInX;
+    display: none;
+    font-size: 1.5em;
+    overflow: hidden;
+    border-radius: inherit;
+    &.vg-status-box-success {
+        background: @lighterGreen;
+        color: white;
+    }
+    &.vg-status-box-working {
+        background: @yellow;
+        color: white;
+    }
+    &.vg-status-box-fail {
+        background: @removeColor;
+        color: white;
+    }
+    &.active {
+        display: block;
+    }
+
+}
+
+
